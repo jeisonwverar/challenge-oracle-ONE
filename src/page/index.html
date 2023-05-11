@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="shortcut icon" href="../../public/assets/Logo (1).png " type="image/x-icon">
+    <link rel="stylesheet" href="../styles/index.css">
+    <title>Encriptador-alura</title>
+</head>
+<body data-dark>
+    <header class="header">
+        <div class="header-logo">
+            <img src="../../public/assets/Logo (1).png" alt="Logo"class='header-logo__img'>
+        </div>
+        <nav class="header-nav">
+            <ul class="header-nav-ul">
+                <li class=" li header-nav-theme ">🌓</li>
+                <li class=" li header-nav-ask ">❔</li>
+            </ul>
+            <div class="header-nav-ask-container is-visibility">
+                <div class="header-nav-ask-subcontainer" data-dark="">
+                    <div class="closed">x</div>
+                        <h3>Las reglas son las siguientes:</h3>
+                        <ol>
+                            <li>No se puede utilizar mayúsculas, acentos y salto de línea (Enter).</li>
+                        <li>Si el texto no cumple con las condiciones en la parte de abajo indicaran error en rojo. </li>
+                        <li>Al enviar el texto no cumple con los requisitos no se enviara el texto.</li>
+                        <li>Cada vez que utilices encriptar y des encriptar el cambio se verá reflejado al lado derecho.</li>
+                    </ol>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="main-encrypt">
+            <textarea name="" id="" cols="30" rows="15
+            " class="main-encrypt-text" placeholder="Ingrese el texto aqui" data-dark=""></textarea>
+            <p class="main-encrypt-p" data-dark><img src="/public/assets/Vector.png" alt="vector" width="16px" class="main-encrypt-p-img"> Solo letras minusculas y sin acentos</p>
+            <div class="main-encrypt-container">
+                <button class="main-encrypt-container-e btn">Encriptar</button>
+                <button class="main-encrypt-container-d btn">Desencriptar</button>
+
+            </div>
+        </section>
+        <section class="main-decrypt">
+            <div class="main-decrypt-container">
+                <textarea name="" id="" cols="20" rows="10" class="main-decrypt-text" placeholder="Ningún mensaje fue encontrado" ></textarea>
+                <p class="main-decrypt-p">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button class="main-decrypt-copy btn">copiar</button>
+
+            </div>
+        
+
+        </section>
+    </main>
+    <footer class="footer">
+        <p>by Jeison Vera:</p> 
+        <a href="https://www.linkedin.com/in/jeisonvera16/" target="_blank"> <img src="../../public/assets/linkedin.svg" alt="linkedin"> </a> 
+        <a href="https://github.com/jeisonwverar" target="_blank"> <img src="../../public/assets/github-icon.svg" alt="git-hub" width="20px" height="20px"> </a> 
+    </footer>
+    <script src="../index.js"  type="module"   ></script>
+</body>
+</html>
