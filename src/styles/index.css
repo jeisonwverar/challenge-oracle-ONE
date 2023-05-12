@@ -433,7 +433,7 @@ textarea:focus{
         z-index: 400;
     }
     .main-decrypt-text{
-        background-image: url('/public/assets/Muñeco.png');
+        background-image: url('../../public/assets/Muñeco.png');
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;  
