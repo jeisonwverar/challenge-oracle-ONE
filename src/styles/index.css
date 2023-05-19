@@ -433,7 +433,7 @@ textarea:focus{
         z-index: 400;
     }
     .main-decrypt-text{
-        background-image: url('/public/assets/Muñeco.png');
+        background-image: url('/challenge-oracle-ONE/public/assets/Muñeco.png');
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;  
@@ -459,7 +459,7 @@ textarea:focus{
 
     .header-nav-ask-subcontainer{
         width:800px;
-        font: size 2rem; 
+        font-size: 2rem; 
         padding: 4em;
         
        

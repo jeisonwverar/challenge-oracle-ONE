@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded",()=>{
  
   //function encrypter 
 
-  handleEncrypt()
+  handleEncrypt();
 
 //function decrypter 
   handleDecrypt();
